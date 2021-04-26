@@ -12,3 +12,14 @@
 
 //Layout
 @import "./layouts/_layouts-dir";
+
+.delete {
+  color: red;
+}
+.completed {
+  /* some fancy styles */
+  text-decoration: line-through;
+}
+.done {
+  /* something */
+}
