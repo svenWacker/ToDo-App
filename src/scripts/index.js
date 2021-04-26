@@ -48,6 +48,7 @@ const addToList = (e) => {
     newContainer.appendChild(deleteButton);
     // Adding class
     doneButton.classList.add("done");
+    deleteButton.classList.add("delete");
     newLi.appendChild(newContainer);
     // Complete function
     // toggle will check if the class name exist, will remove it and if it's not will add it

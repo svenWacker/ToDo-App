@@ -14,7 +14,7 @@
 @import "./layouts/_layouts-dir";
 
 .delete {
-  color: red;
+  background-color: red;
 }
 .completed {
   /* some fancy styles */
@@ -22,4 +22,5 @@
 }
 .done {
   /* something */
+  background-color: green;
 }
