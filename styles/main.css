@@ -378,6 +378,20 @@ button {
   font-size: 1rem;
 }
 
+.delete {
+  background-color: red;
+}
+
+.completed {
+  /* some fancy styles */
+  text-decoration: line-through;
+}
+
+.done {
+  /* something */
+  background-color: green;
+}
+
 body {
   display: flex;
   align-items: center;
