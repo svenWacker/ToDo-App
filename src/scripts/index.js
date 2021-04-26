@@ -1,15 +1,4 @@
 // Any code you will write for your website (in the future!) should go here
-const create = () => {
-  // 1. step
-  const newElement = document.createElement("div");
-
-  const newText = document.createTextNode("I am a new element 😉");
-
-  // 2. step
-  // div                  // text
-  newElement.appendChild(newText);
-  document.body.appendChild(newElement);
-};
 
 const addToList = () => {
   let userData = document.querySelector("#userData").value;
@@ -24,6 +13,3 @@ const addToList = () => {
     document.querySelector("#userData").placeholder = "Please Enter text first";
   }
 };
-
-// document.write("Hi I am text");
-//document.write("<h1> Hi h1>");
