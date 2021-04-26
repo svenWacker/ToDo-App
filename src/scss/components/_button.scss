@@ -6,3 +6,15 @@ button {
   font-family: Tahoma, Geneva, Verdana, sans-serif, cursive;
   font-size: 1rem;
 }
+
+.delete {
+  background-color: red;
+}
+.completed {
+  /* some fancy styles */
+  text-decoration: line-through;
+}
+.done {
+  /* something */
+  background-color: green;
+}
