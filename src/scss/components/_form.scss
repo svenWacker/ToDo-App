@@ -1,9 +1,21 @@
+// form {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 50%;
+//   height: 3rem;
+//   background-color: rgb(37, 196, 182);
+//   width: 50%;
+// }
 form {
+  // border: 2px black dotted;
+  margin: 2px auto;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  // align-content: center;
   width: 50%;
   height: 3rem;
-  background-color: rgb(37, 196, 182);
-  width: 50%;
+  background-color: gray;
 }
