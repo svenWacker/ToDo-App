@@ -1,7 +1,13 @@
 body {
-  display: flex;
-  align-items: center;
-  width: 100vh;
-  flex-direction: column;
-  background-image: url(../../img/bg-blackboard.jpg);
+  @include center;
+  margin: 10% auto;
+  .container {
+    width: 42rem;
+    height: 69rem;
+    background-color: rgb(65, 149, 86);
+    @include center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: "Arial";
+  }
 }
