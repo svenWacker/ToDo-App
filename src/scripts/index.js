@@ -3,11 +3,13 @@ const addToList = (e) => {
   e.preventDefault();
   let userData = document.querySelector("#userData").value;
   console.log(userData);
+
   // Checking my input if it has a text
   if (userData != "") {
     let newLi = document.createElement("li");
     let text = document.createTextNode(userData);
     newLi.appendChild(text);
+
     // Adding random colour to my list item
     newLi.style.color = colorGen();
     document.querySelector(".result").appendChild(newLi);
@@ -17,8 +19,8 @@ const addToList = (e) => {
     const doneButton = document.createElement("button");
     const deleteButton = document.createElement("button");
 
-    doneButton.innerHTML = "";
-    deleteButton.innerHTML = "";
+    doneButton.innerHTML = "✓";
+    deleteButton.innerHTML = "✗";
     // Injecting the buttons into the container
     newContainer.appendChild(doneButton);
     newContainer.appendChild(deleteButton);
