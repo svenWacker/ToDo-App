@@ -5,10 +5,11 @@
   background-color: navajowhite;
   font-family: Tahoma, Geneva, Verdana, sans-serif, cursive;
   font-size: 1rem;
+  border-radius: 15px;
 }
 
 .delete {
-  background-color: rgb(230, 10, 10);
+  background-color: rgba(230, 10, 10, 0.7);
 }
 .completed {
   /* some fancy styles */
@@ -16,5 +17,5 @@
 }
 .done {
   /* something */
-  background-color: rgb(10, 172, 10);
+  background-color: rgba(10, 172, 10, 0.7);
 }

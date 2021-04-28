@@ -1,7 +1,8 @@
 body {
   background-image: url(../../img/bg-blackboard.jpg);
-  // background-position: center;
+  // background-repeat: none;
   background-size: cover;
+  height: 100vh;
   display: flex;
   align-items: center;
   width: 100vw;
@@ -9,5 +10,6 @@ body {
 }
 
 h1 {
-  color: white;
+  color: blanchedalmond;
+  font-size: 3rem;
 }
