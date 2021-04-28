@@ -1,13 +1,4 @@
 body {
-  @include center;
-  margin: 10% auto;
-  .container {
-    width: 42rem;
-    height: 69rem;
-    background-color: rgb(65, 149, 86);
-    @include center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    font-family: "Arial";
-  }
+  background: url("../../img/bg-blackboard.jpg");
+  background-size: cover;
 }
