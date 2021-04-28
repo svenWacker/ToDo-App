@@ -1,4 +1,13 @@
 body {
-  background: url("../../img/bg-blackboard.jpg");
+  background-image: url(../../img/bg-blackboard.jpg);
+  // background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
 }
