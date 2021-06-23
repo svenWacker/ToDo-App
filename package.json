@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/svenWacker/ToDo-App/issues"
   },
-  "homepage": "https://github.com/svenWacker/ToDo-App#readme",
+  "homepage": "https://github.com/svenWacker/ToDo-App.git",
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "live-server": "^1.2.1",
