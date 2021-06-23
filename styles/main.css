@@ -41,6 +41,7 @@ li div button {
 
 /* Style the list items */
 .add-button {
+  margin-left: 0.5rem;
   width: 4rem;
   height: 1.5rem;
   border: none;
@@ -51,6 +52,7 @@ li div button {
 }
 
 .delete {
+  margin-left: 0.5rem;
   background-color: rgba(230, 10, 10, 0.7);
 }
 
