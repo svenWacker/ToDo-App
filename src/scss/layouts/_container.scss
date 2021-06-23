@@ -1,0 +1,17 @@
+.container {
+  margin-top: 6vh;
+  padding: 2rem;
+  border-radius: 24px;
+  border: 2px solid navajowhite;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgb(33, 33, 182) 80%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
